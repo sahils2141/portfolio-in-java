@@ -84,7 +84,7 @@ nav img {
 
 
 .row {
-/*     margin: 5%; */
+    margin: 4%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +92,7 @@ nav img {
 }
 
 .col1 {
-    flex-basis: 50%;
+    flex-basis: 40%;
     min-width: 300px;
 /*     justify-content: space-around; */
 
@@ -207,7 +207,12 @@ p {
     color: #F4B860;
 
 }
-
+.col1 img {
+    height: 300px;
+    border-radius: 200px 200px 0 0;
+    border: 2px solid #F4B860;
+    align-item:center;
+}
 .col1 h4 {
     font-size: 23px;
     color: #F4D6CC;
