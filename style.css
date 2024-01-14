@@ -197,7 +197,7 @@ p {
 
 @media (max-width: 600px) {
     .col1{
-        flex-besis: 20%;
+        flex-besis: 100%;
     }
     .col1 h2 {
     font-size: 30px;
