@@ -196,6 +196,17 @@ p {
 }
 
 @media (max-width: 600px) {
+    .col1 h2 {
+    font-size: 30px;
+    color: #F4B860;
+
+}
+
+.col1 h4 {
+    font-size: 20px;
+    color: #F4D6CC;
+
+}
     .col2 {
         flex-basis: 100%;
     }
