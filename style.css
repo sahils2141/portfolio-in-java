@@ -84,7 +84,8 @@ nav img {
 
 
 .row {
-    margin: 5%;
+/*     margin: 5%; */
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
