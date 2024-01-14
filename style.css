@@ -199,7 +199,7 @@ p {
 
 @media (max-width: 600px) {
     .col1{
-        flex-besis: 100%;
+        flex-basis: 100%;
        
     }
     .col1 h2 {
@@ -211,7 +211,7 @@ p {
     height: 300px;
     border-radius: 200px 200px 0 0;
     border: 2px solid #F4B860;
-    align-item:center;
+   align-items:center;
 }
 .col1 h4 {
     font-size: 23px;
