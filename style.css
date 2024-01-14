@@ -196,9 +196,12 @@ p {
 }
 
 @media (max-width: 600px) {
+    .col1{
+        flex-besis: 20%;
+    }
     .col1 h2 {
     font-size: 30px;
-    color: #fff;
+    color: #F4B860;
 
 }
 
