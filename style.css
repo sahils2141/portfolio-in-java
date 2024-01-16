@@ -197,10 +197,22 @@ p {
     border: 1px solid #F4B860
 }
 
+nav .fas{
+    display: none;
+}
+
+
 @media (max-width: 600px) {
     .col1{
         flex-basis: 100%;
        
+    }
+     nav .fas{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
     }
     .col1 h2 {
     font-size: 40px;
