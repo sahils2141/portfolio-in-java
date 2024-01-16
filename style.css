@@ -210,6 +210,9 @@ p {
     .col1 h2, h4,h3, p{
        margin-left:5px;
     } 
+    .wrapper h3{
+        margin-left:5px;
+    }
 .col1 img {
     height: 300px;
     border-radius: 200px 200px 0 0;
