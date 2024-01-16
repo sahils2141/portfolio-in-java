@@ -212,7 +212,7 @@ nav .fas{
     }
      .nav-link{
         position: fixed;
-        background-color: #f44336;
+        background-color: #4A5859;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -223,7 +223,7 @@ nav .fas{
     }
      nav .fas{
         display: block;
-        color: #fff;
+        color: #F4B860;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
