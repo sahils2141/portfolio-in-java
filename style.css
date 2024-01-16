@@ -205,9 +205,11 @@ p {
     .col1 h2 {
     font-size: 40px;
     color: #F4B860;
-        margin-left:5px;
-
+        
 }
+    .col1 h2, h4, p{
+       margin-left:5px;
+    } 
 .col1 img {
     height: 300px;
     border-radius: 200px 200px 0 0;
