@@ -207,6 +207,9 @@ nav .fas{
         flex-basis: 100%;
        
     }
+    .nav-links ul li{
+        display: block;
+    }
      .nav-links{
         position: fixed;
         background-color: #f44336;
