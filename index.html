@@ -14,7 +14,8 @@
     <section class="header">
         <nav>
             <a href=""><img src="img/sahil-logo.avif" alt=""></a>
-            <div class="nav-link">
+            <div class="nav-link" id="navlink" >
+                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
                  
@@ -23,6 +24,7 @@
 
                 </ul>
             </div>
+             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
     </section>
     <!-- </div> -->
@@ -197,7 +199,15 @@
         </div>
     </div>
     </section>
-
+<script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 
 </body>
 
