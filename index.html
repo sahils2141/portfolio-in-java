@@ -14,17 +14,17 @@
     <section class="header">
         <nav>
             <a href=""><img src="img/sahil-logo.avif" alt=""></a>
-            <div class="nav-link" id="navlink" >
+            <div class="nav-link" id="navlink">
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
-                 
-                    <li><a href="#">WORKS</a></li>
-                    <LI><a href="#">CONTACT ME</a></LI>
+
+                    <li><a href="#work">WORKS</a></li>
+                    <LI><a href="#contact">CONTACT ME</a></LI>
 
                 </ul>
             </div>
-             <i class="fas fa-bars" onclick="showMenu()"></i>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
     </section>
     <!-- </div> -->
@@ -36,7 +36,7 @@
                 <h2>Sahil sharma</h2>
                 <br>
                 <div class="wrapper">
-                    <h3>I am a <span class="typing" ></span></h3>
+                    <h3>I am a <span class="typing"></span></h3>
                 </div>
 
                 <br>
@@ -49,16 +49,17 @@
         </div>
         <div class="cv">
 
-            <a class="cv-button" href="img/sahil-resume-10-5.pdf" download><i class="fa-solid fa-download"></i> Download CV</a>
-            <a href="tel:9607621880" class="cv-button" ><i class="fa-solid fa-address-card"></i> Hire Me</a>
+            <a class="cv-button" href="img/sahil-resume-10-5.pdf" download><i class="fa-solid fa-download"></i> Download
+                CV</a>
+            <a href="tel:9607621880" class="cv-button"><i class="fa-solid fa-address-card"></i> Hire Me</a>
         </div>
 
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script>
-            var typed = new Typed(".typing",{
-                strings: ["Java developer","Web Developer", "PHP Developer"],
-                typeSpeed:150,
-                backSpeed:150,
+            var typed = new Typed(".typing", {
+                strings: ["Java developer", "Web Developer", "PHP Developer", "WordPress Developer"],
+                typeSpeed: 150,
+                backSpeed: 150,
                 loop: true
             })
         </script>
@@ -112,117 +113,210 @@
     </section>
 
     <section>
-        <div class="projects">
+        <div class="projects" id="work">
             <h3>Projects</h3>
             <div class="row">
+
                 <div class="col3">
-                    <a href="https://github.com/sahils2141/Electricity-billing-system" target="_blank"><img src="img/electric system.png"></a>
-                <div class="project-txt" >
-                    <h4>Electricity billing system</h4>
-                    <small>Java, AWT, Swing, MySQL</small>
-                   
-                </div>
+                    <a href="https://github.com/sahils2141/Electricity-billing-system" target="_blank"><img
+                            src="img/electric system.png"></a>
+                    <div class="project-txt">
+                        <h4>Electricity billing system</h4>
+                        <small>Java, AWT, Swing, MySQL</small>
+
+                    </div>
                 </div>
 
 
                 <div class="col3">
-                    <a href="https://github.com/sahils2141/e-commerce-website" target="_blank"><img src="img/ecommerce.png"></a>
-                <div class="project-txt" >
-                    <h4>E-commerce Website </h4>
-                    <small>HTML, CSS, Javascript, Java, MySQL, BootStrap</small>
-                   
-                </div>
+                    <a href="https://github.com/sahils2141/e-commerce-website" target="_blank"><img
+                            src="img/ecommerce.png"></a>
+                    <div class="project-txt">
+                        <h4>E-commerce Website </h4>
+                        <small>HTML, CSS, Javascript, Java, MySQL, BootStrap</small>
+
+                    </div>
                 </div>
 
 
                 <div class="col3">
                     <a href="https://www.asaligyan.in/" target="_blank"><img src="img/wordpress.png"></a>
-                <div class="project-txt" >
-                    <h4>Wordpress Website</h4>
-                    <small>Wordpress plugin, Elementor, Database, Wordpress CMS</small>
-                   
-                </div>
+                    <div class="project-txt">
+                        <h4>Wordpress Website</h4>
+                        <small>Wordpress plugin, Elementor, Database, Wordpress CMS</small>
+
+                    </div>
                 </div>
 
 
                 <div class="col3">
-                    <a href="https://github.com/sahils2141/automaton-website-in-php" target="_blank"><img src="img/blog-website.png"></a>
-                <div class="project-txt" >
-                    <h4>Automation Blog Website</h4>
-                    <small>HTML, CSS, Javascript, PHP</small>
-                   
-                </div>
+                    <a href="https://github.com/sahils2141/automaton-website-in-php" target="_blank"><img
+                            src="img/blog-website.png"></a>
+                    <div class="project-txt">
+                        <h4>Automation Blog Website</h4>
+                        <small>HTML, CSS, Javascript, PHP</small>
+
+                    </div>
                 </div>
 
-                  <div class="col3">
-                    <a href="https://grupsautomation.co.in/schedule-email/index.php" target="_blank"><img src="img/image.png"></a>
-                <div class="project-txt" >
-                    <h4>Bulk Mailing and tracking system</h4>
-                    <small>HTML, CSS, bootstrap, Javascript, PHP,JQuery, Ajax, MySQL</small>
-                   
+            </div>
+
+        </div>
+        <!-- -------------------------------Live project----------------------------- -->
+    </section>
+    <section class="projects">
+        <h3>Live Project</h3>
+        <div class="row">
+            <div class="col3">
+                <a href="https://stager.nuuvessentials.com/" target=" _blank"><img src="img/nuuv.png"></a>
+                <div class="project-txt">
+                    <h4>Skin care E-commerce Website</h4>
+                    <small>WordPress, Elementor Pro, GSAP, Javascript,PHP,HTML&CSS</small>
+
                 </div>
+            </div>
+
+            <div class="col3">
+                <a href="https://theunscriptedgames.com/" target=" _blank"><img src="img/unscriptedgames.png"></a>
+                <div class="project-txt">
+                    <h4>Card E-commerce Website</h4>
+                    <small>WordPress, Elementor Pro, GSAP, Javascript,PHP,HTML&CSS</small>
+
                 </div>
-                
-                <div class="col3">
-                    <a href="https://grupsautomation.co.in/email-extract.php" target="_blank"><img src="https://500apps.com/images/blog/best-email-extractor-tools.png?v=1677747568403012820"></a>
-                <div class="project-txt" >
+            </div>
+
+            <div class="col3">
+                <a href="https://new-web.drmarwah.com/" target=" _blank"><img src="img/dr marwah.png"></a>
+                <div class="project-txt">
+                    <h4>Dermatologist Website</h4>
+                    <small>WordPress, Elementor Pro, GSAP, Javascript,PHP,HTML&CSS</small>
+
+                </div>
+            </div>
+
+            <div class="col3">
+                <a href="https://new.thesociallions.in/" target=" _blank"><img src="img/agency website.png"></a>
+                <div class="project-txt">
+                    <h4>Agency Website</h4>
+                    <small>WordPress, Elementor Pro, GSAP, Javascript, MySql</small>
+
+                </div>
+            </div>
+
+            <div class="col3">
+                <a href="https://new.thesociallions.in/" target=" _blank"><img src="img/agency website.png"></a>
+                <div class="project-txt">
+                    <h4>Industrial Website</h4>
+                    <small>WordPress, Elementor Pro, GSAP, Javascript, MySql</small>
+
+                </div>
+            </div>
+
+
+            <div class="col3">
+                <a href="https://grupsautomation.info/gems/" target="_blank"><img src="img/grupmail.png"></a>
+                <div class="project-txt">
+                    <h4>Mailing syatem</h4>
+                    <small>HTML, CSS, Javascript, PHP, JQuery, MySQL,Ajax</small>
+
+                </div>
+            </div>
+            <div class="col3">
+                <a href="https://grupsautomation.co.in/email-extract.php" target="_blank"><img
+                        src="https://500apps.com/images/blog/best-email-extractor-tools.png?v=1677747568403012820"></a>
+                <div class="project-txt">
                     <h4>Email extractore syatem</h4>
                     <small>HTML, CSS, Javascript, PHP, JQuery, MySQL</small>
-                   
-                </div>
-                </div>
 
-              
+                </div>
             </div>
-            
-        </div>
+            <div class="col3">
+                <a href="https://grupsautomation.co.in/schedule-email/index.php" target="_blank"><img
+                        src="img/image.png"></a>
+                <div class="project-txt">
+                    <h4>Bulk Mailing and tracking system</h4>
+                    <small>HTML, CSS, bootstrap, Javascript, PHP,JQuery, Ajax, MySQL</small>
 
+                </div>
+            </div>
+
+        </div>
     </section>
 
 
-   <section class="projects" >
-        <h3>Others</h3>
+    <section class="projects">
+        <h3>Others Projects</h3>
         <div class="row">
-        <div class="col2" >
-            <div class="text">
-                <b>Website Rank find system</b>
-            </div>
-            <div class="project-txt" >
-                <h4>HTML, CSS, Javascript, PHP,Laravel, Phpmyadmin</h4>
-                <small>The work of this project was that through this we can find out how many of our websites are ranking on which keywords and by how much.</small>
-               
-            </div>
-        </div>
+            <div class="col2">
+                <div class="text">
+                    <b>Website Rank find system</b>
+                </div>
+                <div class="project-txt">
+                    <h4>HTML, CSS, Javascript, PHP,Laravel, Phpmyadmin</h4>
+                    <small>The work of this project was that through this we can find out how many of our websites are
+                        ranking on which keywords and by how much.</small>
 
-        <div class="col2" >
-            <div class="text">
-                <b>Review system</b>
+                </div>
             </div>
-            <div class="project-txt" >
-                <h4>HTML, CSS, Javascript, JSP, Java, mySql workbench</h4>
-                <small>With the help of this system, we can take reviews from customers on our website and show them directly on our website.</small>
-               
-            </div>
-        </div>
 
-        <div class="col2" >
-            <div class="text">
-                <b>Mailing Software</b>
+            <div class="col2">
+                <div class="text">
+                    <b>Review system</b>
+                </div>
+                <div class="project-txt">
+                    <h4>HTML, CSS, Javascript, JSP, Java, mySql workbench</h4>
+                    <small>With the help of this system, we can take reviews from customers on our website and show them
+                        directly on our website.</small>
+
+                </div>
             </div>
-            <div class="project-txt" >
-                <h4>HTML, CSS, Javascript, PHP, Laravel, Phpmyadmin</h4>
-                <small>This software is like Outlook and Gmail, in this we receive mail and in it we can reply to that mail and that entire data is saved in the database.</small>
-               
+
+            <div class="col2">
+                <div class="text">
+                    <b>Mailing Software</b>
+                </div>
+                <div class="project-txt">
+                    <h4>HTML, CSS, Javascript, PHP, Laravel, Phpmyadmin</h4>
+                    <small>This software is like Outlook and Gmail, in this we receive mail and in it we can reply to
+                        that mail and that entire data is saved in the database.</small>
+
+                </div>
             </div>
         </div>
+    </section>
+
+    <section class="footer">
+        <div class="footerrow">
+            <div class="col4">
+                <h3>About Me</h3>
+                <p>
+                    I am an experienced PHP web developer with expertise in both frontend and backend development. With two years of professional experience, I have successfully delivered several projects and have a proven track record of assisting others in resolving complex bugs and technical issues.</p>
+            </div>
+
+            <div class="col4">
+                <h3>Contact Me</h3>
+                <p>+91-9607621880</p>
+                <p>sharmasahil1880@gmail.com</p>
+            </div>
+            <div class="col4">
+                <h3>Follow us</h3>
+                <a href="https://www.instagram.com/yes_i_am_sahil/"><i class="fa-brands fa-instagram fa-2x "></i></a>
+                <a href="https://www.linkedin.com/in/sahil-sharma-664341205/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/sahils2141/"><i class="fa-brands fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    <div >
+        <hr>
+        <h3 class="footer-text">All Right Reserve By Sahil And Team</h3>
     </div>
     </section>
-<script>
+
+    <script>
         var navlinks = document.getElementById("navlink");
-        function showMenu(){
+        function showMenu() {
             navlinks.style.right = "0";
         }
-        function hideMenu(){
+        function hideMenu() {
             navlinks.style.right = "-200px";
         }
     </script>
