@@ -364,9 +364,9 @@ nav img:hover {
 
 .projects .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1400px;
     margin: 0 auto;
     justify-items: center;
 }
@@ -381,7 +381,6 @@ nav img:hover {
     border: 1px solid var(--border-color);
     height: 100%;
     width: 100%;
-    max-width: 350px;
 }
 
 .col3:hover {
@@ -435,7 +434,8 @@ nav img:hover {
 
 @media (max-width: 576px) {
     .projects .row {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
     }
 
     .projects {
