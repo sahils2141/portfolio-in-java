@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sahil Sharma - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -13,18 +16,17 @@
     <!-- <div class="container"> -->
     <section class="header">
         <nav>
-            <a href=""><img src="img/sahil-logo.avif" alt=""></a>
+            <a href="" class="logo"><img src="img/sahil-logo.avif" alt="Sahil's Logo"></a>
             <div class="nav-link" id="navlink">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
-
                     <li><a href="#work">WORKS</a></li>
-                    <LI><a href="#contact">CONTACT ME</a></LI>
-
+                    <li><a href="#contact">CONTACT ME</a></li>
                 </ul>
             </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
     </section>
     <!-- </div> -->
@@ -43,7 +45,7 @@
                 <p>I work on Java, JSP, Servlet, HTML, CSS, PHP, Javascript,Phpmyadmin, MySQL</p>
             </div>
             <div class="col1">
-                <img src="img/logo1.png" alt="">
+                <img src="img/logo1.png" alt="Sahil Sharma Profile" loading="eager" decoding="async">
             </div>
 
         </div>
@@ -76,38 +78,39 @@
         <div class="row">
 
             <div class="col2">
-                <div class="text">
-                    Frontend
+                <div class="text">Frontend</div>
+                <div class="lang-container">
+                    <div class="lang">HTML</div>
+                    <div class="lang">CSS</div>
+                    <div class="lang">Javascript</div>
+                    <div class="lang">JQuery</div>
                 </div>
-                <br>
-                <div class="lang">HTML</div>
-                <div class="lang border">CSS</div>
-                <div class="lang">Javascript</div>
-                <div class="lang border2">JQuery</div>
             </div>
             <div class="col2">
                 <div class="text">Backend</div>
-                <br>
-                <div class="lang border2">Java</div>
-                <div class="lang ">JSP</div>
-                <div class="lang border">PHP</div>
-                <div class="lang">Laravel</div>
-                <div class="lang border2">C++</div>
-                <div class="lang">Wordpress</div>
-
+                <div class="lang-container">
+                    <div class="lang">Java</div>
+                    <div class="lang">JSP</div>
+                    <div class="lang">PHP</div>
+                    <div class="lang">Laravel</div>
+                    <div class="lang">C++</div>
+                    <div class="lang">Wordpress</div>
+                </div>
             </div>
             <div class="col2">
-                <div class="text">Databas</div>
-                <br>
-                <div class="lang">MySQL</div>
-                <div class="lang border">Phpmyadmin</div>
-                <div class="lang">SQL</div>
+                <div class="text">Database</div>
+                <div class="lang-container">
+                    <div class="lang">MySQL</div>
+                    <div class="lang">Phpmyadmin</div>
+                    <div class="lang">SQL</div>
+                </div>
             </div>
             <div class="col2">
-                <div class="text">development</div>
-                <br>
-                <div class="lang border">OOPs</div>
-                <div class="lang border2">Ajax</div>
+                <div class="text">Development</div>
+                <div class="lang-container">
+                    <div class="lang">OOPs</div>
+                    <div class="lang">Ajax</div>
+                </div>
             </div>
         </div>
     </section>
@@ -167,6 +170,14 @@
     <section class="projects">
         <h3>Live Project</h3>
         <div class="row">
+            <div class="col3">
+                <a href="https://thelionsarc.com/" target=" _blank"><img src="img/hrms.png"></a>
+                <div class="project-txt">
+                    <h4>HR Management System</h4>
+                    <small>HTML, CSS, Javascript, PHP, MySQL</small>
+
+                </div>
+            </div>
             <div class="col3">
                 <a href="https://nuuvessentials.com/" target=" _blank"><img src="img/nuuv.png"></a>
                 <div class="project-txt">
@@ -246,41 +257,38 @@
 
     <section class="projects">
         <h3>Others Projects</h3>
-        <div class="row">
-            <div class="col2">
-                <div class="text">
-                    <b>Website Rank find system</b>
+        <div class="other-projects">
+            <div class="other-project-card">
+                <h4 class="title">Website Rank Find System</h4>
+                <div class="tech-stack">
+                    HTML, CSS, Javascript, PHP, Laravel, Phpmyadmin
                 </div>
-                <div class="project-txt">
-                    <h4>HTML, CSS, Javascript, PHP,Laravel, Phpmyadmin</h4>
-                    <small>The work of this project was that through this we can find out how many of our websites are
-                        ranking on which keywords and by how much.</small>
-
-                </div>
+                <p class="description">
+                    The work of this project was that through this we can find out how many of our websites are
+                    ranking on which keywords and by how much.
+                </p>
             </div>
 
-            <div class="col2">
-                <div class="text">
-                    <b>Review system</b>
+            <div class="other-project-card">
+                <h4 class="title">Review System</h4>
+                <div class="tech-stack">
+                    HTML, CSS, Javascript, JSP, Java, MySQL Workbench
                 </div>
-                <div class="project-txt">
-                    <h4>HTML, CSS, Javascript, JSP, Java, mySql workbench</h4>
-                    <small>With the help of this system, we can take reviews from customers on our website and show them
-                        directly on our website.</small>
-
-                </div>
+                <p class="description">
+                    With the help of this system, we can take reviews from customers on our website and show them
+                    directly on our website.
+                </p>
             </div>
 
-            <div class="col2">
-                <div class="text">
-                    <b>Mailing Software</b>
+            <div class="other-project-card">
+                <h4 class="title">Mailing Software</h4>
+                <div class="tech-stack">
+                    HTML, CSS, Javascript, PHP, Laravel, Phpmyadmin
                 </div>
-                <div class="project-txt">
-                    <h4>HTML, CSS, Javascript, PHP, Laravel, Phpmyadmin</h4>
-                    <small>This software is like Outlook and Gmail, in this we receive mail and in it we can reply to
-                        that mail and that entire data is saved in the database.</small>
-
-                </div>
+                <p class="description">
+                    This software is like Outlook and Gmail, in this we receive mail and in it we can reply to
+                    that mail and that entire data is saved in the database.
+                </p>
             </div>
         </div>
     </section>
@@ -312,12 +320,13 @@
     </section>
 
     <script>
-        var navlinks = document.getElementById("navlink");
-        function showMenu() {
-            navlinks.style.right = "0";
-        }
-        function hideMenu() {
-            navlinks.style.right = "-200px";
+        function toggleMenu() {
+            const navlink = document.getElementById("navlink");
+            const menuBtn = document.querySelector(".menu-btn i");
+            
+            navlink.classList.toggle("active");
+            menuBtn.classList.toggle("fa-bars");
+            menuBtn.classList.toggle("fa-times");
         }
     </script>
 
