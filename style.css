@@ -202,6 +202,7 @@ nav img:hover {
     margin: 2rem auto;
     width: 100%;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .cv-button {
@@ -216,12 +217,30 @@ nav img:hover {
     font-weight: 600;
     transition: all 0.3s ease;
     gap: 0.5rem;
+    white-space: nowrap;
 }
 
 .cv-button:hover {
     background: var(--accent-hover);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
+}
+
+@media (max-width: 480px) {
+    .cv {
+        flex-direction: row;
+        gap: 0.8rem;
+        padding: 0 0.5rem;
+    }
+
+    .cv-button {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .cv-button i {
+        font-size: 0.9rem;
+    }
 }
 
 /* Skills Section */
